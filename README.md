@@ -1,2 +1,1 @@
-"# NataliaIKrzysiek.github.io" 
-"# NataliaIKrzysiek.github.io" 
+Wedding app for the guests :)
