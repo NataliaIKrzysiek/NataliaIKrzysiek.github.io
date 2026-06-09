@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Natalia i Krzysztof</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #faf8f5;
+      color: #4a4036;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url('./1.jpg');
+      background-size: cover;
+      background-position: center;
+      filter: blur(6px);
+      transform: scale(1.05);
+      z-index: -1;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: rgba(255, 255, 255, 0.5);
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      max-width: 560px;
+      width: 100%;
+    }
+
+    .ornament {
+      font-size: 2rem;
+      color: #d58b1b;
+      letter-spacing: 0.5rem;
+      margin-bottom: 2rem;
+      opacity: 0.9;
+    }
+
+    .title {
+      font-family: 'Great Vibes', cursive;
+      font-size: clamp(2rem, 6vw, 3rem);
+      color: #8b6914;
+      line-height: 1.1;
+      margin-bottom: 0.25rem;
+    }
+
+    .divider {
+      width: 80px;
+      height: 2px;
+      background: linear-gradient(to right, transparent, #c8a96e, transparent);
+      margin: 1.5rem auto;
+    }
+
+    .message {
+      font-size: 1.125rem;
+      font-weight: 400;
+      line-height: 1.8;
+      color: #382f27;
+      margin-bottom: 0.75rem;
+    }
+
+    .message strong {
+      font-weight: 400;
+      color: #342d26;
+    }
+
+    .sub-message {
+      font-size: 0.95rem;
+      font-weight: 400;
+      color: #2a2018;
+      margin-top: 1.75rem;
+      line-height: 1.7;
+    }
+
+    .ornament-bottom {
+      font-size: 1.25rem;
+      color: #cf8025;
+      letter-spacing: 0.4rem;
+      margin-top: 2rem;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="ornament">✦ ✦ ✦</div>
+
+    <div class="title">Natalia &amp; Krzysztof</div>
+
+    <div class="divider"></div>
+
+    <p class="message">
+      Zdjęcia z naszego wesela<br />
+      <strong>nie są już tutaj dostępne.</strong>
+    </p>
+
+    <p class="sub-message">
+      Aby uzyskać dostęp do galerii,<br />
+      skontaktuj się bezpośrednio z nami.
+    </p>
+
+    <div class="ornament-bottom">✦ ✦ ✦</div>
+  </div>
+</body>
+</html>
